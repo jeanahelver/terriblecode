@@ -21,7 +21,7 @@ var loader = new GLTFLoader();
 
 loader.load(
 	// resource URL
-	'src/npc.gltf', //this isnt loading idk why :S
+	'../src/cutie.gltf', //this isnt loading idk why :S
 	// called when the resource is loaded
 	function ( gltf ) {
 
