@@ -1,0 +1,214 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0, 
+            "componentType" : 5123, 
+            "count" : 2436, 
+            "max" : [
+                407
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 1, 
+            "componentType" : 5126, 
+            "count" : 408, 
+            "max" : [
+                0.7169181108474731, 
+                2.2631726264953613, 
+                0.24639035761356354
+            ], 
+            "min" : [
+                -0.7169181108474731, 
+                -0.011003772728145123, 
+                -0.25040173530578613
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 2, 
+            "componentType" : 5126, 
+            "count" : 408, 
+            "max" : [
+                0.999908447265625, 
+                1.0, 
+                0.999664306640625
+            ], 
+            "min" : [
+                -0.999908447265625, 
+                -0.9980468153953552, 
+                -0.9974059462547302
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 3, 
+            "componentType" : 5121, 
+            "count" : 192, 
+            "max" : [
+                46
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 4, 
+            "componentType" : 5126, 
+            "count" : 47, 
+            "max" : [
+                0.2394266575574875, 
+                2.27492094039917, 
+                0.24595120549201965
+            ], 
+            "min" : [
+                -0.2394266575574875, 
+                1.609839677810669, 
+                -0.27392804622650146
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 5, 
+            "componentType" : 5126, 
+            "count" : 47, 
+            "max" : [
+                0.99951171875, 
+                0.999969482421875, 
+                0.99957275390625
+            ], 
+            "min" : [
+                -0.99951171875, 
+                -0.0795617550611496, 
+                -0.99981689453125
+            ], 
+            "type" : "VEC3"
+        }
+    ], 
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter", 
+        "version" : "2.0"
+    }, 
+    "bufferViews" : [
+        {
+            "buffer" : 0, 
+            "byteLength" : 4872, 
+            "byteOffset" : 0, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 4896, 
+            "byteOffset" : 4872, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 4896, 
+            "byteOffset" : 9768, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 192, 
+            "byteOffset" : 14664, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 564, 
+            "byteOffset" : 14856, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 564, 
+            "byteOffset" : 15420, 
+            "target" : 34962
+        }
+    ], 
+    "buffers" : [
+        {
+            "byteLength" : 15984, 
+            "uri" : "cutie.bin"
+        }
+    ], 
+    "materials" : [
+        {
+            "name" : "BODY", 
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.670307414117044, 
+                    0.5068058324919633, 
+                    0.3954914860364589, 
+                    1.0
+                ], 
+                "metallicFactor" : 0.0
+            }
+        }, 
+        {
+            "name" : "Material.001", 
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.010015408028498096, 
+                    0.010015408028498096, 
+                    0.010015408028498096, 
+                    1.0
+                ], 
+                "metallicFactor" : 0.0
+            }
+        }
+    ], 
+    "meshes" : [
+        {
+            "name" : "Cube.006", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2, 
+                        "POSITION" : 1
+                    }, 
+                    "indices" : 0, 
+                    "material" : 0
+                }
+            ]
+        }, 
+        {
+            "name" : "Cube.007", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 5, 
+                        "POSITION" : 4
+                    }, 
+                    "indices" : 3, 
+                    "material" : 1
+                }
+            ]
+        }
+    ], 
+    "nodes" : [
+        {
+            "mesh" : 0, 
+            "name" : "body.002"
+        }, 
+        {
+            "mesh" : 1, 
+            "name" : "hair.002"
+        }
+    ], 
+    "scene" : 0, 
+    "scenes" : [
+        {
+            "name" : "Scene", 
+            "nodes" : [
+                1, 
+                0
+            ]
+        }
+    ]
+}
